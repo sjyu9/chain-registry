@@ -89,6 +89,10 @@
         "provider": "Sunrise Team"
       },
       {
+        "address": "https://rpc-sunrise.infrasingularity.com",
+        "provider": "Infrasingularity"
+      },
+      {
         "address": "https://sunrise-mainnet-rpc.mekonglabs.tech",
         "provider": "MekongLabs"
       },
@@ -143,6 +147,10 @@
       {
         "address": "https://rpc-sunrise.winnode.xyz",
         "provider": "Winnode"
+      },
+      {
+        "address": "https://rpc-sunrise.blockval.io/",
+        "provider": "Blockval"
       }
     ],
     "rest": [
@@ -205,6 +213,10 @@
       {
         "address": "https://api-sunrise.winnode.xyz",
         "provider": "Winnode"
+      },
+      {
+        "address": "https://api-sunrise.blockval.io",
+        "provider": "Blockval"
       }
     ],
     "grpc": [
@@ -251,6 +263,10 @@
       {
         "address": "https://grpc-sunrise.winnode.xyz:443",
         "provider": "Winnode"
+      },
+      {
+        "address": "grpc-sunrise.blockval.io:443",
+        "provider": "Blockval"
       }
     ]
   },
