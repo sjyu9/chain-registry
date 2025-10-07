@@ -2029,12 +2029,24 @@
       "name": "Chainlink (Portal)",
       "display": "link",
       "symbol": "LINK",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "provider": "Portal"
+        }
+      ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
         }
       ]
     },
@@ -3530,12 +3542,28 @@
       "name": "Paxos Gold (Portal)",
       "display": "paxg",
       "symbol": "PAXG",
+      "traces": [
+        {
+          "type": "bridge",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
+          },
+          "provider": "Portal"
+        }
+      ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png"
+          "image_sync": {
+            "chain_name": "ethereum",
+            "base_denom": "0x45804880De22913dAFE09f4980848ECE6EcbAf78"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/paxg.svg"
         }
       ]
     },
@@ -3582,12 +3610,24 @@
       "name": "ChainLink Token",
       "display": "link",
       "symbol": "LINK",
+      "traces": [
+        {
+          "type": "synthetic",
+          "counterparty": {
+            "chain_name": "ethereum",
+            "base_denom": "0x514910771af9ca656af840dff83e8264ecf986ca"
+          },
+          "provider": "Unknown"
+        }
+      ],
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
       },
       "images": [
         {
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/link.png"
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
         }
       ]
     },
@@ -6018,7 +6058,7 @@
         }
       ]
     },
-     {
+    {
       "description": "LuncToken ($LTK) is the community token of Lunctoken.org, designed to reward engagement, provide access to Web3 educational content, and strengthen the Terra Classic ecosystem.",
       "extended_description": "LuncToken ($LTK) is a CW20 token deployed on Terra Classic (columbus-5). It powers the community platform Lunctoken.org, rewarding contributors with points and tokens, enabling on-chain claims, NFTs, and governance experiments. With a fixed max supply of 10,000,000 LTK, the project is focused on education, gamified participation, and real utility within the Terra Classic ecosystem.",
       "socials": {
